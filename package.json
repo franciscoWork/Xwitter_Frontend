@@ -1,8 +1,11 @@
 {
   "name": "Xwitter_n",
   "version": "0.0.1",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
